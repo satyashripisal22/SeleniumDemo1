@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestngDemoSuite">
+  
+  <test thread-count="5" name="CalculatorTest">
+	  
+	  <parameter name="Url" value="https://www.calculator.net/currency-calculator.html"></parameter>
+	  <parameter name="Amount" value="50"></parameter>
+    
+    <classes>
+      
+      <class name="com.seleniumtesting.demo.TestngDemo"/>
+    
+    </classes>
+  
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
