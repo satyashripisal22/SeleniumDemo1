@@ -6,7 +6,7 @@ public class Banking {
 
 	@Test
 	public void Banking_Car_Loan() {
-		System.out.println("I'm in CarLoan Section");
+		System.out.println("I am in CarLoan Section");
 	}
 	@Test(groups= {"Smoke"})
 	public void Banking_Personal_Loan() {
