@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Websites {
 
@@ -14,7 +14,7 @@ public class Websites {
 	@Test
 	public void Amazon() {
 		
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		
 		WebDriver driver = new ChromeDriver();
 		
@@ -24,7 +24,7 @@ public class Websites {
 	@Test
 	public void Google() {
    
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		
 		WebDriver driver = new ChromeDriver();
 		

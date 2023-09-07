@@ -11,6 +11,8 @@
     <classes>
       
       <class name="com.seleniumtesting.demo.TestngDemo"/>
+      <class name="com.seleniumtesting.demo.Banking"/>
+      <class name="com.seleniumtesting.demo.BankingAccounts"/>
     
     </classes>
   

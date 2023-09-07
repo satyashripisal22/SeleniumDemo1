@@ -17,7 +17,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestngDemo {
 	
@@ -44,7 +44,7 @@ public class TestngDemo {
 	@Parameters({"Url","Amount"})
 	public void Calculator(String URL , String Amount) {
 		System.out.println("I am in Calculator Test");
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		
 		driver = new ChromeDriver();
 		
@@ -84,5 +84,6 @@ public class TestngDemo {
 	@AfterSuite
 	public void TearDown() {
 		System.out.println("I am After Suite");
+		//driver.close();
 	}
 }
